@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Rendez-vous Vétérinaire</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur le système de rendez-vous vétérinaire</h1>
+    </header>
+    
+    <main>
+        <p>Gérez vos rendez-vous pour vos animaux de compagnie.</p>
+        
+        <p>
+            <a href="{% url 'appointment_create' %}" class="button">Créer un nouveau rendez-vous</a>
+        </p>
+    </main>
+</body>
+</html>
